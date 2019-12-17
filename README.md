@@ -1,9 +1,8 @@
-#### Create new directory
-`mkdir Buyer_Aug_Sandbox`
-
-`cd Buyer_Aug_Sandbox`
+#### Clone repo
+`git clone https://www.github.com/dmells/Buyer_Aug_Sandbox`
 
 #### Install pipenv & dependencies
+`cd Buyer_Aug_Sandbox`
 
 `pipenv install`
 
@@ -21,10 +20,11 @@
 
 `nano .env`
 
-`add 
-GOOGLE_APPLICATION_CREDENTIALS=<path to google creds>`
+To the .env add: 
 
-`add STAGING_DB_URL=<staging_db_url`
+`GOOGLE_APPLICATION_CREDENTIALS=<path to google creds>`
+
+`STAGING_DB_URL=<staging_db_url>`
 
 #### Load jupyter
 
